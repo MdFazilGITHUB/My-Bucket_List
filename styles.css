@@ -1,0 +1,108 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png);
+    height: 100vh;
+    width: 50vw;
+    background-size: 100% 30%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    background-repeat: no-repeat;
+    }
+
+.container{
+
+    display: block;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#input-field{
+    border: double 1px black;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    margin-left: 220px;
+    position:relative;
+}
+
+.btn-submit{
+    border: double 1px black;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 60px;
+    height: 43px;
+    margin-right: 190px;
+    background-color: #F7BE3B;
+    position: fixed; 
+}
+
+.list-container{
+    margin: auto;
+    display: block;
+}
+
+h2{
+    color: #13243E;    ;
+    margin-left: 240px;
+    margin-top: 130px;
+}
+
+.hint{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#list-container{
+    margin-top: 20px;
+    text-align: left;
+    list-style-position: inside;
+    font-weight: 900;
+    font-size: 25px;
+    border: black solid 1px;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 190px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #000000;
+}
+  
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #000000;
+}
+  
+ul li:last-child {
+    border-bottom: none;
+}
+
+.btn-reset{
+    border: #000000 solid 3px;
+    border-radius: 15px;
+    background-color: #F7BE3B;
+    position: fixed; 
+    height: 40px;
+    width: 200px;
+    margin-left: 325px;
+}
+
+.footer{
+    margin-top: 200px;
+    margin-left: 335px;
+    position: fixed;
+}
