@@ -42,7 +42,8 @@ h1{
     font-size: 20px;
     width: 60px;
     height: 43px;
-    margin-right: 190px;
+    /* margin-right: 190px; */
+    margin-left: -3%;
     background-color: #F7BE3B;
     position: fixed; 
 }
@@ -99,6 +100,7 @@ ul li:last-child {
     height: 40px;
     width: 200px;
     margin-left: 325px;
+    font-size: 20px;
 }
 
 .footer{
