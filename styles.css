@@ -11,6 +11,7 @@ body{
     margin: auto;
     background-color: hsl(0, 0%, 90%);
     background-repeat: no-repeat;
+    font-size: 20px;
     }
 
 .container{
@@ -22,7 +23,7 @@ h1{
     color: white;
     text-align: center;
     margin-top: 50px;
-    font-size: xx-large;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -32,7 +33,7 @@ h1{
     font-size: 20px;
     width: 400px;
     height: 40px;
-    margin-left: 250px;
+    margin-left: 260px;
     position:relative;
 }
 
@@ -56,12 +57,14 @@ h1{
 h2{
     color: #13243E;    ;
     margin-left: 240px;
-    margin-top: 130px;
+    margin-top: 140px;
+    font-size: 30px;
 }
 
 .hint{
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
+    font-size: 25px;
 }
 
 #list-container{
@@ -73,7 +76,7 @@ h2{
     border: black solid 1px;
     border-radius: 20px;
     width: 500px;
-    margin-left: 190px;
+    margin-left: 230px;
     
 }
 
@@ -86,6 +89,11 @@ ul {
 ul li {
     padding: 8px 16px;
     border-bottom: 1px solid #000000;
+    
+}
+
+li{
+    margin: 10px;
 }
   
 ul li:last-child {
@@ -99,7 +107,7 @@ ul li:last-child {
     position: fixed; 
     height: 40px;
     width: 200px;
-    margin-left: 325px;
+    margin-left: 360px;
     font-size: 20px;
 }
 
