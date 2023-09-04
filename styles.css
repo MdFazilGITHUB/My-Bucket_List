@@ -91,10 +91,6 @@ ul li {
     border-bottom: 1px solid #000000;
     
 }
-
-li{
-    margin: 10px;
-}
   
 ul li:last-child {
     border-bottom: none;
